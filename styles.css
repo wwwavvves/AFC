@@ -13,7 +13,11 @@ body {
 .nav-wrapper {
 	display: flex;
 	justify-content: space-between;
-	padding: 38px;
+	padding: 20px 30px;
+	position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
 }
 
 .left-side {
@@ -56,15 +60,16 @@ body {
 /* Portfolio styles */
 .portfolio-items-wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .portfolio-item-wrapper {
 	position: relative;
+	padding: 30px;
 }
 
 .portfolio-img-background {
-	height: 350px;
+	height: 200px;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
