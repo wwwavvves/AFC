@@ -60,7 +60,7 @@ body {
 /* Portfolio styles */
 .portfolio-items-wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .portfolio-item-wrapper {
@@ -73,7 +73,6 @@ body {
 	width: 100%;
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
 }
 
 .img-text-wrapper {
@@ -102,12 +101,7 @@ body {
 
 .img-text-wrapper:hover .subtitle {
 	font-weight: 600;
-	color: lightseagreen;
-}
-
-.img-darken {
-	transition: 1s;
-	filter: brightness(10%);
+	color: white;
 }
 
 /* About page */
