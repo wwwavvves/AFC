@@ -123,3 +123,16 @@ body {
 .profile-content-wrapper h1 {
 	color: black;
 }
+
+
+.portfolio-img-background1 {
+	height: 200px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.portfolio-img-background1:hover {
+	background: url(/images/portfolio9.jpg);
+}
