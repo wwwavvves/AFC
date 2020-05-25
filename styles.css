@@ -107,17 +107,19 @@ body {
 /* About page */
 .two-column-wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 2fr;
 }
 
 .profile-image-wrapper img {
 	width: 100%;
+	padding: 30px;
 }
 
 .profile-content-wrapper {
 	padding: 30px;
+	margin-left: 30px;
 }
 
 .profile-content-wrapper h1 {
-	color: lightseagreen;
+	color: black;
 }
